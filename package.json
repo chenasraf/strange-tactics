@@ -1,0 +1,28 @@
+{
+  "name": "strange-tactics",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenasraf/strange-tactics.git"
+  },
+  "keywords": [
+    "html5",
+    "js",
+    "game"
+  ],
+  "author": "Chen Asraf <chen@asraf.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chenasraf/strange-tactics/issues"
+  },
+  "homepage": "https://github.com/chenasraf/strange-tactics#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "bower": "^1.8.0"
+  }
+}
