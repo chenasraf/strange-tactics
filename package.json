@@ -22,7 +22,5 @@
   },
   "homepage": "https://github.com/chenasraf/strange-tactics#readme",
   "dependencies": {},
-  "devDependencies": {
-    "bower": "^1.8.0"
-  }
+  "devDependencies": {}
 }
