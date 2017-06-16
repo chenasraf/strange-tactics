@@ -22,5 +22,7 @@
   },
   "homepage": "https://github.com/chenasraf/strange-tactics#readme",
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "jsdoc": "^3.4.3"
+  }
 }
