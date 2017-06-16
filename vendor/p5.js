@@ -13769,11 +13769,11 @@ p5.Element.prototype.mouseMoved = function (fxn) {
 };
 
 /**
- * The .mouseOver() function is called once after every time a
+ * The .isMouseOver() function is called once after every time a
  * mouse moves onto the element. This can be used to attach an
  * element specific event listener.
  *
- * @method mouseOver
+ * @method isMouseOver
  * @param  {Function} fxn function to be fired when mouse is
  *                    moved over the element.
  * @return {p5.Element}
@@ -13784,7 +13784,7 @@ p5.Element.prototype.mouseMoved = function (fxn) {
  * var g;
  * function setup() {
  *   cnv = createCanvas(100, 100);
- *   cnv.mouseOver(changeGray);
+ *   cnv.isMouseOver(changeGray);
  *   d = 10;
  * }
  *
@@ -13805,7 +13805,7 @@ p5.Element.prototype.mouseMoved = function (fxn) {
  * no display.
  *
  */
-p5.Element.prototype.mouseOver = function (fxn) {
+p5.Element.prototype.isMouseOver = function (fxn) {
   attachListener('mouseover', fxn, this);
   return this;
 };
