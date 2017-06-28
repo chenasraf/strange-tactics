@@ -1,7 +1,6 @@
 {
   "name": "strange-tactics",
   "version": "0.0.1",
-  "description": "",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -23,6 +22,16 @@
   "homepage": "https://github.com/chenasraf/strange-tactics#readme",
   "dependencies": {},
   "devDependencies": {
-    "jsdoc": "^3.4.3"
-  }
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-env": "^1.5.2",
+    "babel-preset-es2016": "^6.24.1",
+    "jsdoc": "^3.4.3",
+    "webpack": "^3.0.0"
+  },
+  "directories": {
+    "doc": "docs",
+    "lib": "lib"
+  },
+  "description": ""
 }
